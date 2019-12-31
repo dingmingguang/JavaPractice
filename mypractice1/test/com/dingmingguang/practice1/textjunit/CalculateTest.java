@@ -13,7 +13,7 @@ class CalculateTest {
 
 	@Test
 	void testSubstract() {
-		assertEquals(2,new Calculate().substract(5, 3));
+		assertEquals(3,new Calculate().substract(5, 2));
 	}
 
 	@Test
